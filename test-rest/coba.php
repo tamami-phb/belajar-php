@@ -11,7 +11,7 @@ $uri = explode('/', $uri);
 include "../native/connection.php";
 
 if(function_exists($_GET['function'])) {
-  echo $_GET['function'];
+  //echo $_GET['function'];
   $_GET['function']();
 }
 
